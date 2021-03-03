@@ -5,10 +5,6 @@ for (let i = 0; i < 100; i++) {
   snakeField.appendChild(div);
 }
 
-const regularBg = () => {
-  e.target.style.backgroundColor = "lightblue";
-};
-
 snakeField.addEventListener("mouseover", (e) => {
   if (e.target.classList.contains("item")) {
     e.target.style.backgroundColor = "red";
